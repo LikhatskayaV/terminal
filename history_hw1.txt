@@ -1,0 +1,42 @@
+  409  pwd
+  410  mkdir hw1_lvika_terminal
+  411  cd hw1_lvika_terminal/
+  412  mkdir lesson_{1..3}
+  413  cd lesson_1
+  420  touch topic_{1..3}.txt ex_4.json ex_5.json
+  421  mkdir folder_{1..3}
+  422  ls -la
+  423  cat >topic_1.txt
+  424  cd ..
+  425  cd lesson_1
+  426  cp topic_2.txt folder_3/topic_2.txt
+  427  cp ex_5.json folder_3/ex_5.json
+  428  mv topic_3.txt folder_2/topic_3.txt
+  429  mv ex_4.json folder_2/ex_4.json
+  430  find -name topic_3.txt
+  431  tail -2 topic_1.txt
+  432  head -2 topic_1.txt
+  433  less topic_1.txt
+  434  date 
+  435  curl 'http://162.55.220.72:5005/terminal-hw-request'
+  436  curl 'http://162.55.220.72:5005'
+  437  vim topic_2.txt
+  438  cd ..
+  439  vim topic_2.txt
+  440  cd lesson_1
+  442  touch topic_8.sh
+  443  vim topic_8.sh
+				#!/bin/bash
+				cd folder_1
+				mkdir dir_{1..3}
+				cd dir_1
+				touch t_{1..3}.txt j1.json j2.json
+				mkdir d_{1..3}
+				ls -la
+				mv t_1.txt d_1/t_1.txt
+				mv t_2.txt d_1/t_2.txt
+				echo "done"
+  444  explorer .
+  448  bash topic_8.sh
+  449  history
+  452  history >> history_hw1.txt
