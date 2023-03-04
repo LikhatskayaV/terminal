@@ -1,0 +1,68 @@
+  520  mkdir dir_1
+  521  cd dir_1
+  522  mkdir inner_dir_1
+  523  pwd
+  524  touch tf_1.txt
+  525  cat > tf_2.txt
+  526  cd inner_dir_1/
+  527  cat > tf_3.txt
+  528  cat >> tf_3.txt  
+  530  cat >> tf_3.txt 
+  532  cat >> /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1 tf_2.txt 
+  535  cat >> tf_3.txt 
+  536  cat >> /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/tf_2.txt 
+  537  cat > tf_4.txt
+  538  cat > tF_5.txt
+  539  ls -la
+  540  cd ..
+  541  cat /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/inner_dir_1/tf_3.txt
+  543  find -name tf_4.txt
+  565  realpath tf_4.txt
+  546  echo -n > ./inner_dir_1/tf_4.txt
+  548  find -name "*tf*"
+  549  find -iname "*tf*"
+  577  grep "sec" *
+  578  grep -i "sec" *
+  579  grep -w "sec" *
+  580  grep -w -i "sec" *
+  582  grep "second" *
+  583  grep -i "second" *
+  584  grep -r "second"
+  	30
+	31
+  605  grep -rlv /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/ -e second
+  606  tail -n4 tf_2.txt
+  607  head -n4 tf_2.txt
+	35
+	36
+	37
+	38
+	39
+612  echo "Good Job!"
+
+
+
+
+
+
+  585  grep -l "second" *
+  586  grep -l "second" - r *
+  587  grep -rl "second" *
+  588  grep -rl "second" /dir_1
+  589  grep -rl "second" '/dir_1/'
+  590  grep -rlv "second" *
+  591  grep -r -l "second" *
+  592  grep -r -l second .
+  593  grep second *
+  594  grep -rlv '/d/' -e "second"
+  595* grep -rlv /dir_1/ -e "second"
+  596  grep -rlv './dir_1/' -e "second"
+  597  grep -rlv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -e "second"
+  598  grep -lv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -e "second" *
+  599  grep -lv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -w "second" *
+  600  grep -rlv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -w "second" *
+  601  grep -lv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' * -w "second" 
+  602  grep -l '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -e "second" * 
+  603  grep -l -e "second" * 
+  613  history >> history_hw_2.txt
+
