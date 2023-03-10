@@ -1,36 +1,43 @@
-  520  mkdir dir_1
-  521  cd dir_1
-  522  mkdir inner_dir_1
-  523  pwd
-  524  touch tf_1.txt
-  525  cat > tf_2.txt
-  526  cd inner_dir_1/
-  527  cat > tf_3.txt
-  528  cat >> tf_3.txt  
-  530  cat >> tf_3.txt 
-  532  cat >> /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1 tf_2.txt 
-  535  cat >> tf_3.txt 
-  536  cat >> /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/tf_2.txt 
-  537  cat > tf_4.txt
-  538  cat > tF_5.txt
-  539  ls -la
-  540  cd ..
-  541  cat /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/inner_dir_1/tf_3.txt
-  543  find -name tf_4.txt
-  565  realpath tf_4.txt
-  546  echo -n > ./inner_dir_1/tf_4.txt
-  548  find -name "*tf*"
-  549  find -iname "*tf*"
-  577  grep "sec" *
-  578  grep -i "sec" *
-  579  grep -w "sec" *
-  580  grep -w -i "sec" *
-  582  grep "second" *
-  583  grep -i "second" *
-  584  grep -r "second"
-  	30
-	31
-  605  grep -rlv /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/ -e second
+  497  mkdir dir_1
+  498  cd dir_1/
+  499  mkdir inner_dir_1
+  500  pwd
+  501  touch tf_1.txt
+  502  cat > tf_2.txt
+  503  cd inner_dir_1/
+  505  cat > tf_3.txt
+  506  cat >> tf_3.txt 
+  507  cat tf_3.txt 
+  508  cat >> tf_3.txt 
+  509  cat >> /d/QA_33_lvika/hw1_lvika_terminal/group_33/HW_2_TERMINAL/dir_1/tf_2.txt 
+  510  cat >> tf_3.txt 
+  511  cat >> /d/QA_33_lvika/hw1_lvika_terminal/group_33/HW_2_TERMINAL/dir_1/tf_2.txt 
+  512  cat > tf_4.txt
+  513  cat > tF_5.txt
+  514  ls -la
+  515  cd ..
+  516  cat /d/QA_33_lvika/hw1_lvika_terminal/group_33/HW_2_TERMINAL/dir_1/inner_dir_1/tf_3.txt 
+  517  find -name tf_4.txt
+  518  realpath tf_4.txt
+  519  echo -n > ./inner_dir_1/tf_4.txt
+  520  cat ./inner_dir_1/tf_4.txt
+  521  find -name "*tf*"
+  524  find -iname "*tf*"
+  525  grep "sec" *
+  526  grep sec *
+  527  grep -i "sec" *
+  529  grep -w "sec" *
+  530  grep -wi "sec" *
+  531  grep -w -i "sec" *
+  532  grep "second" *
+  533  grep -i "second" *
+  534  grep -r "second"
+  535  grep -s -l "second" /d/QA_33_lvika/hw1_lvika_terminal/group_33/HW_2_TERMINAL/dir_1/*
+  538  grep -r -v -e "second" /d/QA_33_lvika/hw1_lvika_terminal/group_33/HW_2_TERMINAL/dir_1/
+  539  grep -r -v -e "second"
+  542  grep -r -l -v -e "second" /d/QA_33_lvika/hw1_lvika_terminal/group_33/HW_2_TERMINAL/dir_1/
+  543  vim /d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/term_hw_2.txt
+  544  history >> hist_3.txt
   606  tail -n4 tf_2.txt
   607  head -n4 tf_2.txt
 	35
@@ -39,30 +46,4 @@
 	38
 	39
 612  echo "Good Job!"
-
-
-
-
-
-
-  585  grep -l "second" *
-  586  grep -l "second" - r *
-  587  grep -rl "second" *
-  588  grep -rl "second" /dir_1
-  589  grep -rl "second" '/dir_1/'
-  590  grep -rlv "second" *
-  591  grep -r -l "second" *
-  592  grep -r -l second .
-  593  grep second *
-  594  grep -rlv '/d/' -e "second"
-  595* grep -rlv /dir_1/ -e "second"
-  596  grep -rlv './dir_1/' -e "second"
-  597  grep -rlv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -e "second"
-  598  grep -lv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -e "second" *
-  599  grep -lv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -w "second" *
-  600  grep -rlv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -w "second" *
-  601  grep -lv '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' * -w "second" 
-  602  grep -l '/d/QA_33_lvika/hw1_lvika_terminal/group_33/GitHub/terminal/Terminal_HW_2/dir_1/' -e "second" * 
-  603  grep -l -e "second" * 
-  613  history >> history_hw_2.txt
 
