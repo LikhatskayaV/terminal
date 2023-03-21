@@ -1,4 +1,4 @@
-Терминал (или «Bash», сокращение от «Bourne-Again shell») ![TERMINAL](https://samoedd.com/wp-content/uploads/2018/05/Terminal.png)
+![TERMINAL](https://samoedd.com/wp-content/uploads/2018/05/Terminal.png) (или «Bash», сокращение от «Bourne-Again shell») 
 это программа, которая используется для взаимодействия с командной оболочкой. Терминал применяется  
 для выполнения административных задач, например:  
 установку пакетов, действия с файлами и управление пользователями. 
