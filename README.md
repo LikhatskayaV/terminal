@@ -1,5 +1,14 @@
-![TERMINAL](https://samoedd.com/wp-content/uploads/2018/05/Terminal.png) (или «Bash», сокращение от «Bourne-Again shell») это программа, которая используется для взаимодействия с командной оболочкой. 
----
+<html>	<body>
+	  <a href="https://github.com/LikhatskayaV"> 
+		  <p>
+			  <img src="https://samoedd.com/wp-content/uploads/2018/05/Terminal.png" 
+		    <svg height="150" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="180" data-view-component="true">
+		  </p>
+        </svg>
+    </a>
+	</body>    </html>  
+  ## (или «Bash», сокращение от «Bourne-Again shell») это программа, которая используется для взаимодействия с командной оболочкой.  
+  ---  
 **Зачем нужен Терминал?**  
 Есть три причины, которые делают Терминал незаменимым инструментом для специалистов, анализирующих большие массивы данных:  
 
