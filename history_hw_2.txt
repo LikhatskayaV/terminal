@@ -40,10 +40,10 @@
   544  history >> hist_3.txt
   606  tail -n4 tf_2.txt
   607  head -n4 tf_2.txt
-	35
-	36
-	37
-	38
-	39
-612  echo "Good Job!"
+  501  cat > cat.txt | mkdir dir_3
+  505  grep -l -r sec | xargs mv -t dir_5
+  502  grep -l -r sec | xargs cp -t dir_3
+  508  grep -r -i sec >> sec.txt
+  513  grep -lr sec | xargs rm
+  612  echo "Good Job!"
 
